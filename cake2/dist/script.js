@@ -1,6 +1,6 @@
 $('.start').click(function(){
     $('.stage1').fadeOut();
-    fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cake_modal.png','制作生日蛋糕🎂','铁铁生日快乐啊！做了一个网上小party送给铁铁，希望铁铁不要嫌弃啊');
+    fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/cake_modal.png','制作生日蛋糕🎂','自己动手，丰衣足食，这就当是我送给铁铁的大蛋糕了。');
 })
 
 progress = 1;
@@ -47,7 +47,7 @@ $('.mixer').click(function(){
     }
     if(mixtimes == 6){
         $('.stage2').fadeOut();
-        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mix_modal.png','搅拌好啦！','现在放入烤箱就好啦！！希望铁铁能够吃到无比松软香甜的蛋糕啊！');
+        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mix_modal.png','搅拌好啦！','现在放入烤箱就好啦！！这个蛋糕看着就很好吃。');
 
     }
 
